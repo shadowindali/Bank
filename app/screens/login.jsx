@@ -69,7 +69,7 @@ export default function App() {
           source={Bank}
           style={[styles.maincont, { width: "100%" }]}
         >
-          <StatusBar />
+          {/* <StatusBar /> */}
 
           <View style={styles.logincont}>
             <Image source={Blogo} style={styles.image} />

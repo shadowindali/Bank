@@ -285,7 +285,7 @@ export default function Recieve() {
   return (
     <SafeAreaView style={{ flex: 1, alignItems: "center" }}>
       <View style={style.container}>
-        <StatusBar />
+        {/* <StatusBar /> */}
         <Text style={style.title}>Send Money</Text>
       </View>
 
