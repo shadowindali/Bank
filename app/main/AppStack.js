@@ -13,6 +13,7 @@ import Changepassword from "../screens/changepassword";
 import Addcard from "../screens/addcard";
 import Deletecard from "../screens/deletecard";
 import Transactions from "../screens/transactions";
+import { StatusBar } from "react-native";
 
 const Stack = createNativeStackNavigator();
 
@@ -29,6 +30,7 @@ export default function AppStack() {
 
   return (
     <NavigationContainer>
+      <StatusBar backgroundColor={"black"} />
       <Stack.Navigator initialRouteName="login">
         {user ? (
           <>

@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Bank",
+    "name": "Banki",
     "slug": "Bank",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.shadowindali.Banki"
